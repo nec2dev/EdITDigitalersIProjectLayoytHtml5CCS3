@@ -1,2 +1,2 @@
-index2.html
-css/test.css
+./index2.html
+./css/test.css
