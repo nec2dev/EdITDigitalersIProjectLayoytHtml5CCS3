@@ -1,0 +1,14 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    float: left;
+}
+main {
+    width: 100%;
+    background-color: red;
+    overflow: hidden;
+}
+/* footer {
+    clear: both;
+} */
