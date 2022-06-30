@@ -22,6 +22,10 @@ nav {
     height: 40px;
 }
 
+nav:hover {
+    text-decoration: underline;
+}
+
 nav a {
     text-decoration: none;
     color: black;
@@ -38,33 +42,6 @@ nav img {
 .activo {
     text-decoration: underline;
 }
-/* header {
-    text-align: center;
-    width: 100%;
-    height: 500px;
-    background-color: #b45008;
-    background-image:url(../img/banner.JPG);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-header h1 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 300;
-    font-size: 2em;
-}
-
-header h1 span{
-    font-family: miFuente;
-    font-style: italic;
-    font-weight: bold;
-    font-size: 3em;
-    color: #b45008;
-}
-header div {
-    width: 50%;
-    background-color: rgba(255, 255, 255, 0.5);
-} */
 
 #encabezado {
     width: 100%;
@@ -121,6 +98,10 @@ main {
     box-shadow: 1px 3px 10px black;
 }
 
+.division img:hover {
+    opacity: 0.5;
+}
+
 .nosotros {
     background-color: #b45008;
 }
@@ -156,6 +137,7 @@ h4 {
     font-size: 1.4em;
     color: #e8bf65;
     border-bottom: 1px dotted #b45008;
+    text-shadow: 2px 3px 2px rgba(200, 200, 14, 0.5);
 }
 
 p {
@@ -165,6 +147,7 @@ p {
 article {
     width: 50%;
     padding: 1em;
+    float: left;
 }
 
 footer {

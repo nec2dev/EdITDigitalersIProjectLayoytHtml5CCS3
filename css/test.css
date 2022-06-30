@@ -1,14 +1,59 @@
-div {
-    width: 100px;
-    height: 100px;
-    background-color: blue;
-    float: left;
+.abs1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    font-size: 5em;
+    background-color: rgba(0, 0, 255, 0.3);
 }
-main {
-    width: 100%;
-    background-color: red;
-    overflow: hidden;
+.abs2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    font-size: 5em;
+    background-color: rgba(255, 255, 0);
+    left: 24px;
+    top: 24px;
+    z-index: -1;
 }
-/* footer {
-    clear: both;
-} */
+.abs3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    font-size: 5em;
+    background-color: rgba(0, 0, 255, 0.3);
+    left: 48px;
+    top: 48px;
+}
+.abs4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    font-size: 5em;
+    background-color: rgba(0, 0, 255, 0.3);
+    left: 72px;
+    top: 72px;
+}
+#amarilloso {
+    background-color: rgba(255, 255, 0, 0.3);
+}
+#relativizador {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    margin-top: 24px;
+    margin-left: 24px;
+    background-color: rgba(0, 0, 255, 0.3);
+    padding: 48px;
+}
