@@ -102,13 +102,25 @@ main {
     opacity: 0.5;
 }
 
-.grilla {
+.grilla div:first-child{
+    background-position: -140px 0px; 
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-image: url(../img/gym-01.jpg);
+}
 
+.grilla div:nth-child(2) {
+    background-image: url(../img/gym-02.jpg);
+}
+
+.grilla div:nth-child(3) {
+    background-image: url(../img/gym-03.jpg);
 }
 
 .grilla div {
-    background-color: red;
-}
+    width: auto;
+    background-size: cover;
+} 
 
 .nosotros {
     background-color: #b45008;
