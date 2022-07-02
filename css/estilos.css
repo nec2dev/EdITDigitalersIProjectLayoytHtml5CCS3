@@ -1,3 +1,4 @@
+/* ------------- Generals ------------- */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
 @font-face {
     src: url(../fonts/BodoniFLF-BoldItalic.ttf);
@@ -10,13 +11,52 @@
     box-sizing: border-box;
 }
 
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    font-family: miFuente;
+    font-size: 2em;
+    margin: 0;
+    color: #e8bf65;
+}
+
+h3 {
+    font-family: miFuente;
+    font-size: 3em;
+    color: #b45008;
+}
+
+h4 {
+    font-size: 1.4em;
+    color: #e8bf65;
+    border-bottom: 1px dotted #b45008;
+    text-shadow: 2px 3px 2px rgba(200, 200, 14, 0.5);
+}
+
+h4::before {
+    counter-increment: miContador;
+    content: counter(miContador, upper-roman) "-";
+    font-variant: small-caps;
+    font-size: 20px;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+/* ------------- Body ------------- */
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 90%;
     margin: 0;
     padding: 0;
+    counter-reset: miContador;
 }
 
+/* ------------- Nav ------------- */
 nav {
     width: 100%;
     height: 40px;
@@ -43,6 +83,7 @@ nav img {
     text-decoration: underline;
 }
 
+/* ------------- Header ------------- */
 #encabezado {
     width: 100%;
     height: 500px;
@@ -75,10 +116,14 @@ nav img {
     display: block;
 }
 
+
+/* ------------- Main ------------- */
 main {
     width: 100%;
 }
 
+
+/* ------------- Cronograma ------------- */
 .division {
     width: 100%;
     padding: 1rem;
@@ -144,40 +189,14 @@ main {
     grid-template-rows: 200px 200px;
 }
 
-h1 {
-    margin: 0;
-}
-
-h2 {
-    font-family: miFuente;
-    font-size: 2em;
-    margin: 0;
-    color: #e8bf65;
-}
-
-h3 {
-    font-family: miFuente;
-    font-size: 3em;
-    color: #b45008;
-}
-
-h4 {
-    font-size: 1.4em;
-    color: #e8bf65;
-    border-bottom: 1px dotted #b45008;
-    text-shadow: 2px 3px 2px rgba(200, 200, 14, 0.5);
-}
-
-p {
-    font-size: 1.2em;
-}
-
+/* ------------- Article ------------- */
 article {
     width: 50%;
     padding: 1em;
     float: left;
 }
 
+/* ------------- Chat ------------- */
 #chat {
     position: fixed;
     left: 95%;
@@ -193,6 +212,7 @@ article {
     border-radius: 100%;
 }
 
+/* ------------- Footer ------------- */
 footer {
     display: flex;
     justify-content: space-evenly;
